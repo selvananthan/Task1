@@ -1,0 +1,20 @@
+differance between http/1.1 and http/2.
+HTTP/1.1:
+1.	Introduced in 1997.
+2.	Supports persistent connections for multiple requests over a single connection.
+3.	Allows pipelining of requests to reduce latency.
+4.	Faces issues like head-of-line blocking, causing delays.
+HTTP/2:
+1.	Standardized in 2015, evolved from the SPDY protocol.
+2.	Uses a binary protocol, which is more efficient.
+3.	Implements multiplexing to handle multiple requests and responses simultaneously, eliminating head-of-line blocking.
+4.	Features header compression (HPACK) to reduce redundant header information.
+5.	Introduces server push to proactively send resources to the client’s cache.
+Impact on Web Development:
+1.	Leads to improved page load times.
+2.	Simplifies resource delivery and potentially reduces front-end code complexity.
+3.	Often used with HTTPS for enhanced security.
+Conclusion:
+1.	The transition to HTTP/2 offers a faster, more secure, and reliable web experience.
+2.	HTTP/2’s adoption is beneficial for both users and developers.
+
