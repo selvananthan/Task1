@@ -1,0 +1,22 @@
+JavaScript Objects
+•	Are collections of key-value pairs.
+•	Keys are strings; values can be various data types.
+
+Internal Representation:
+•	Managed by JavaScript engines like V8 or SpiderMonkey.
+•	Typically use structures akin to hash tables for property access.
+•	Employ hidden classes to optimize property addition and object structure.
+•	Utilize inline caching to speed up repeated property access.
+
+Optimization Techniques:
+•	Hash tables enable efficient property lookup.
+•	Hidden classes prevent slowdowns when adding new properties.
+•	Inline caching optimizes access paths for frequently accessed properties.
+
+Prototype-Based Language:
+•	Objects inherit from other objects via the prototype chain.
+•	Property lookups traverse up the chain if the property isn't on the object itself.
+
+Conclusion:
+•	Objects are dynamic and optimized for performance.
+•	Understanding these concepts can lead to more efficient JavaScript coding.
